@@ -6,7 +6,8 @@ before_script:
  - composer install
 deploy:
   provider: heroku
-  api_key: HEROKU
+  api_key:
+     secure: $HEROKU
   on:
     all_branches: true
  
