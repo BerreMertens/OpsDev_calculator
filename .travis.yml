@@ -8,9 +8,7 @@ deploy:
   provider: heroku
   api_key:
     secure: HEROKU
-  on:
-    tags: true
-    all_branches: true
+ 
   
 after_success:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
