@@ -1,2 +1,2 @@
 # OpsDev_calculator
-https://travis-ci.com/BerreMertens/OpsDev_calculator.svg?branch=main
+[![Build Status](https://travis-ci.com/BerreMertens/OpsDev_calculator.svg?branch=main)](https://travis-ci.com/BerreMertens/OpsDev_calculator)
