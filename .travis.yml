@@ -10,6 +10,7 @@ deploy:
     secure: $HEROKU
   app: opsdevcalculator
   on:
+    all_branches: true
     repo: BerreMertens/OpsDev_calculator
 after_success:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
