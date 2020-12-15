@@ -6,6 +6,8 @@ before_script:
  - composer install
 deploy:
   provider: heroku
+  api_key:
+    secure: $HEROKU_API_KEY
   app: opsdevcalculator
   on:
     all_branches: true
